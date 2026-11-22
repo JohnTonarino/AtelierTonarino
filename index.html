@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>アトリエとなりの</title>
+<meta name="description" content="となりのが、気になったものをシェーダーや3Dモデルにしてきた自由帳。">
+<meta property="og:type" content="website">
+<meta property="og:title" content="アトリエとなりの">
+<meta property="og:description" content="気の向くままに。となりのが、気になったものを形にしてきた自由帳。">
+<meta property="og:url" content="https://johntonarino.github.io/AtelierTonarino/">
+<meta property="og:image" content="https://johntonarino.github.io/AtelierTonarino/assets/ogp.png">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="assets/icon.png">
+<link rel="stylesheet" href="assets/style.css">
+<script defer src="assets/main.js"></script>
+</head>
+<body>
+
+<div class="paper-grid drift">
+  <header class="site-header wrap">
+    <a class="brand" href="#top">
+      <img src="assets/icon.png" alt="" width="50" height="45">
+      <span class="display">アトリエとなりの</span>
+    </a>
+    <nav class="ext-links" aria-label="外部リンク">
+      <a class="pill" href="https://x.com/JohnTonarinoGC">X</a>
+      <a class="pill pill-booth" href="https://johnsgc.booth.pm/">BOOTH</a>
+    </nav>
+  </header>
+
+  <section id="top" class="hero wrap">
+    <div class="hero-text">
+      <span class="pen hero-note">アトリエとなりの 自由帳</span>
+      <h1 class="display">気の向く<br>ままに。</h1>
+      <p class="lead">気になったものを、シェーダーにしたり、3Dモデルにしたり、着られるものにしたり。となりのの手が動いた記録。</p>
+      <nav class="toc" aria-label="もくじ">
+        <span class="pen">もくじ</span>
+        <a href="#works"><span class="toc-label">つくったもの</span><span class="toc-dots" aria-hidden="true"></span><span class="toc-page">p.1</span></a>
+        <a href="#log"><span class="toc-label">実験ログ</span><span class="toc-dots" aria-hidden="true"></span><span class="toc-page">p.2</span></a>
+      </nav>
+    </div>
+
+    <div class="hero-today">
+      <span class="pen today-note">今日の一枚</span>
+      <figure class="sticker today-card" id="today" style="--r: 1deg">
+        <span class="tape tape-lg" aria-hidden="true"></span>
+        <button class="today-media" type="button" id="today-open" aria-label="大きく見る">
+          <img id="today-thumb" alt="" width="440" height="440">
+          <video id="today-video" muted loop playsinline preload="none" hidden></video>
+          <span class="badge badge-event" id="today-event" hidden></span>
+        </button>
+        <figcaption class="today-caption">
+          <div class="today-text">
+            <span class="today-name" id="today-name"></span>
+            <span class="today-meta" id="today-meta"></span>
+          </div>
+          <button class="flipbtn" type="button" id="today-flip">もう一枚めくる</button>
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+</div>
+
+<div class="paper-grid page">
+  <section id="works" class="wrap section">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow">p.1</span>
+        <h2 class="display">つくったもの</h2>
+      </div>
+      <div class="chips" role="group" aria-label="絞り込み" id="chips"></div>
+    </div>
+    <div class="works-grid" id="works-grid"></div>
+  </section>
+</div>
+
+<div class="paper-ruled page">
+  <section id="log" class="wrap section">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow">p.2</span>
+        <h2 class="display">実験ログ</h2>
+      </div>
+      <span class="pen log-note">外に出してみたときの記録</span>
+    </div>
+    <ol class="log-list" id="log-list"></ol>
+  </section>
+</div>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div class="footer-brand">
+      <span class="footer-icon"><img src="assets/icon.png" alt="" width="50" height="45"></span>
+      <div>
+        <span class="display">アトリエとなりの</span>
+        <small>© <span id="year">2026</span> Atelier Tonarino. All rights reserved.</small>
+      </div>
+    </div>
+    <nav class="ext-links" aria-label="外部リンク">
+      <a class="pill pill-invert" href="https://x.com/JohnTonarinoGC">X @JohnTonarinoGC</a>
+      <a class="pill pill-booth" href="https://johnsgc.booth.pm/">BOOTH</a>
+    </nav>
+  </div>
+</footer>
+
+<dialog class="lightbox" id="lightbox" aria-label="作品を大きく見る">
+  <button class="lb-close" type="button" id="lb-close" aria-label="閉じる">
+    <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"></path></svg>
+  </button>
+  <div class="lb-stage" id="lb-stage"></div>
+  <p class="lb-caption" id="lb-caption"></p>
+</dialog>
+
+</body>
+</html>

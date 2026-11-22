@@ -1,0 +1,25 @@
+[
+  { "id": "jet-engine", "ja": "ジェットエンジン", "title": "JetEngine", "year": 2026, "kind": "shader", "media": "video", "tags": ["GLSL"] },
+  { "id": "marching-kadomatsu", "ja": "マーチング門松", "title": "MarchingKadomatsu", "year": 2025, "kind": "shader", "media": "video", "tags": ["GLSL", "Raymarching"] },
+  { "id": "fuwafuwa-halloween-ghost", "ja": "ふわふわハロウィンゴースト", "title": "FuwaFuwaHalloweenGhost", "year": 2025, "kind": "shader", "media": "video", "tags": ["GLSL", "Raymarching"] },
+  { "id": "truchet-cirkit", "ja": "電子回路風味", "title": "TruchetCirkit", "year": 2025, "kind": "shader", "media": "image", "tags": ["GLSL", "TruchetTile"], "event": "Vket 2026W" },
+  { "id": "space-jellyfish", "ja": "宇宙クラゲ", "title": "SpaceJellyfish", "year": 2025, "kind": "shader", "media": "video", "tags": ["GLSL", "Raymarching"] },
+  { "id": "floating-goldfish", "ja": "たゆたう金魚", "title": "FloatingGoldfish", "year": 2025, "kind": "shader", "media": "video", "tags": ["GLSL", "Raymarching"] },
+  { "id": "archimedean-solid-planet", "ja": "アルキメデスの立体の回転", "title": "ArchimedeanSolidPlanet", "year": 2025, "kind": "shader", "media": "video", "tags": ["GLSL", "Raymarching"], "event": "Vket 2026W" },
+  { "id": "morphing-ponde", "ja": "モーフィング・ポンデ", "title": "MorphingPonde", "year": 2025, "kind": "shader", "media": "video", "tags": ["GLSL", "Raymarching"] },
+  { "id": "voronoi-crystal", "ja": "クリスタル風味", "title": "VoronoiCrystal", "year": 2025, "kind": "shader", "media": "image", "tags": ["GLSL", "Voronoi"] },
+  { "id": "symbol-soda", "ja": "キゴー・ソーダ", "title": "SymbolSoda", "year": 2024, "kind": "shader", "media": "video", "tags": ["Unity"], "event": "Vket24W" },
+  { "id": "square-carpet", "ja": "四角絨毯", "title": "SquareCarpet", "year": 2023, "kind": "shader", "media": "image", "tags": ["GLSL", "Square"] },
+  { "id": "jumping-squares", "ja": "ジャンピング正方形", "title": "JumpingSquares", "year": 2023, "kind": "shader", "media": "video", "tags": ["GLSL", "Square"] },
+  { "id": "rainbow-cogwheel", "ja": "レインボー歯車", "title": "RainbowCogwheel", "year": 2022, "kind": "shader", "media": "video", "tags": ["GLSL", "Cogwheel"] },
+  { "id": "rainbow-circle", "ja": "レインボー円", "title": "RainbowCircle", "year": 2022, "kind": "shader", "media": "video", "tags": ["GLSL", "Circle"] },
+
+  { "id": "sunshadow-regalia-nephraka", "ja": "SunshadowRegalia: Nephraka", "title": "【Blanca;Redo】", "kind": "3d", "tags": ["3D衣装"], "booth": true },
+  { "id": "kimono-skirt", "ja": "きものすかーと", "title": "【Blanca;Redo】", "kind": "3d", "tags": ["3D衣装"], "booth": true },
+  { "id": "led-sunglasses", "ja": "動くLEDサングラス", "kind": "3d", "tags": ["3Dアクセ"], "booth": true },
+  { "id": "spring-hair-ornament", "ja": "春らしい髪飾り", "kind": "3d", "tags": ["3Dアクセ"], "booth": true },
+  { "id": "takyaku-no-ashi", "ja": "タキャクのあし", "kind": "3d", "tags": ["3Dモデル"], "booth": true },
+  { "id": "fuchidori-pop-toon", "ja": "FuchidoriPopToon", "kind": "shader", "tags": ["トゥーンシェーダー"], "booth": true },
+  { "id": "sandither-toon", "ja": "SanditherToon", "kind": "shader", "tags": ["トゥーンシェーダー"], "booth": true },
+  { "id": "osakana-tshirt", "ja": "おさかなのTシャツ", "kind": "goods", "tags": ["グッズ"], "booth": "https://johnsgc.booth.pm/items/6014974" }
+]
