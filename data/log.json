@@ -1,7 +1,7 @@
 [
-  { "id": "2022-first", "when": "2022", "title": "レインボー円", "body": "はじめて公開したシェーダー。ここから描きはじめる。", "image": "media/works/rainbow-circle/thumb.webp" },
-  { "id": "2023-summer", "when": "2023 夏", "title": "Vket 2023 Summer", "body": "" },
-  { "id": "2024-winter", "when": "2024 冬", "title": "Vket 2024 Winter", "body": "キゴー・ソーダを出展。" },
-  { "id": "2025-winter", "when": "2025 冬", "title": "Vket 2025 Winter", "body": "" },
-  { "id": "2026-winter", "when": "2026 冬", "title": "Vket 2026 Winter", "body": "ヴンダーカンマー会場に「アトリエとなりの標本室」を出展。" }
+  { "id": "2022-first", "when": "2022", "title": "活動開始", "body": "気の向くままに。ゆっくりと。", "image": true },
+  { "id": "2023-summer", "when": "2023 夏", "title": "Vket 2023 Summer", "body": "「水砂の都 アビダール アブラカタブラ」にて初出展。", "image":true },
+  { "id": "2024-winter", "when": "2024 冬", "title": "Vket 2024 Winter", "body": "「ガチャットピア！ スタイリッシュ・カプセル」に出展。", "image":true },
+  { "id": "2025-winter", "when": "2025 冬", "title": "Vket 2025 Winter", "body": "「Vketフォーミュラ.3879 グランドファイナル！」にアイテム出展。", "image":true },
+  { "id": "2026-winter", "when": "2026 冬", "title": "Vket 2026 Winter", "body": "「コルト夫人のヴンダーカンマー 驚異の目録」に出展。"}
 ]

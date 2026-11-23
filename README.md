@@ -2,8 +2,6 @@
 
 https://johntonarino.github.io/AtelierTonarino/
 
-ライブラリなし・ビルドなしの静的サイト。push すれば GitHub Pages にそのまま出ます。
-
 ## 構成
 
 ```
